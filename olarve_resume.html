@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+            font-family: "Arial Black", sans-serif; /* Changed font family to Arial Black */
+            font-size: 16px;
+            padding: 20px;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 5px solid #007bff; /* Added blue border */
+        }
+        .section-title {
+            border-bottom: 2px solid #007bff;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            color: #007bff;
+            background-color: #ffffff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+        .list-group-item {
+            border: none;
+            padding: 0.75rem 1.25rem;
+            border-radius: 0;
+        }
+        hr {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-color: #007bff;
+        }
+        .content-section {
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 20px;
+        }
+        .resume-container {
+            background-color: #e9ecef; /* Light gray background color */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="resume-container">
+            <div class="card p-4">
+                <!-- Profile Section -->
+                <div class="row mb-4">
+                    <div class="col-md-3 text-center">
+                        <img src="ariel.jpg" class="img-fluid rounded-circle profile-img" alt="Profile Picture">
+                    </div>
+                    <div class="col-md-9">
+                        <h1>Ariel Olarve</h1>
+                        <p class="lead"><strong>Software Developer</strong></p>
+                        <p>Hard Working Student seeking for employment. Ready to utilize my skills and passion to further the mission of a company. Bringing forth a positive attitude and the willingness and motivation to
+                            learn new programs.</p>
+                        <div class="contact-info">
+                            <p><strong>Email:</strong> <a href="olarveariel47@gmail.com">olarveariel47@gmail.com</a></p>
+                            <p><strong>Phone:</strong> 0936-402-7536</p>
+                            <p><strong>Instagram:</strong> <a href="ao_aryel" target="_blank">ao_aryel</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- Experience Section -->
+                <div class="row content-section">
+                    <div class="col-md-12">
+                        <h2 class="section-title">Experience</h2>
+                        <div class="mb-3">
+                            <ul>
+                                <li>Data Encoder in PUP (OJT)</li>
+                                <li>Food Factory at Delfas(OJT)</li>
+                                <li>Barangay Community Service (OJT)</li>
+                            </ul>
+                        </div>
+                        <!-- Repeat the above block for more job experiences -->
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- Education Section -->
+                <div class="row content-section">
+                    <div class="col-md-12">
+                        <h2 class="section-title">Education</h2>
+                        <div class="mb-3">
+                            <h4>College</h4>
+                            <h5>City College of Tagaytay</h5>
+                            <p><em>Ongoing</em></p>
+                        </div>
+                        <div class="mb-3">
+                            <h4>Senior High</h4>
+                            <h5>Kaytitinga Integrated School</h5>
+                            <p><em>2020</em></p>
+                        </div>
+                        <div class="mb-3">
+                            <h4>High School</h4>
+                            <h5>Kaytitinga Integrated School</h5>
+                            <p><em>2018</em></p>
+                        </div>
+                        <div class="mb-3">
+                            <h4>Elementary</h4>
+                            <h5>Kaytitinga Elementary School</h5>
+                            <p><em>2012</em></p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- Skills Section -->
+                <div class="row content-section">
+                    <div class="col-md-12">
+                        <h2 class="section-title">Skills</h2>
+                        <ul class="list-group">
+                            <li class="list-group-item">Programming Languages: Java, Python, JavaScript</li>
+                            <li class="list-group-item">Web Development: HTML/CSS, React, Node.js</li>
+                            <li class="list-group-item">Database Management: SQL</li>
+                            <li class="list-group-item">Operating Systems: Windows</li>
+                            <li class="list-group-item">Network Administration: TCP/IP, DNS, DHCP</li>
+                            <li class="list-group-item">Cybersecurity: Firewall Configuration, Intrusion Detection</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
